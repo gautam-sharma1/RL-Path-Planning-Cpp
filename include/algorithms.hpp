@@ -51,24 +51,5 @@ private:
     static double _LEARNING_RATE;
 };
 
-/**
- * The following class implemets LMS algorithm
-**/
-class LMS
-{
-public:
-    LMS(const float &a, const int &w);
-    void SetWeights();
-    std::vector<float> GetWeights() const;
-    void ShowWeights() const;
-    void Run(int iter, std::string filename);
-
-private:
-    const float _ALPHA;
-    const int _WEIGHTS;
-    std::vector<float> _weights;
-    std::vector<float> _input = {4, 1, 1}; //Random initialization
-    float d = 10;                          //Random initialization
-};
 
 #endif /* algorithms_hpp */
