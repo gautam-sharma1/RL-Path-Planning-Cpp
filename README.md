@@ -29,7 +29,7 @@ int main(int argc, const char *argv[])
 }
 
 ```
-The following defines a qlearning agent with 3 state variables (x,y,z), and a state space of length 20 i.e <br/>
+The following defines a qlearning agent with 2 state variables (x,y), and a state space of length 16 i.e <br/>
 -8<= x < 8 <br/>
 -8 <= y < 8 <br/>
 
