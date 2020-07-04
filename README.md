@@ -18,7 +18,7 @@ int main(int argc, const char *argv[])
     // insert code here...
 
     // QLearning(int state size, int range of values state can take, int action size vector)
-    QLearning q(2, 20, 4);
+    QLearning q(2, 16, 4);
     q.SetEpsilon(0.8); //A function to set Epsilon
     q.GetEpsilon();    //Print Epsilon to the console
     //q.Show(); //To print the Q table to the console
@@ -35,13 +35,13 @@ The following defines a qlearning agent with 3 state variables (x,y,z), and a st
 
 4 represents the number of actions that the agent can take. In this case action 0 corresponds to moving 1 unit in x direction, action 1 corresponds to moving -1 unit in x direction and so on.
 ```
-QLearning q(2, 20, 4);
+QLearning q(2, 16, 4);
 ```
 
 The *Player::_goal* static variable defines the goal coordinates of the agent.
 
 ```
-Player::_goal = {5, 5,};
+Player::_goal = {5, 5};
 ```
 The following function starts the learning. <br/>
 Note : 16 is the length of the state space that should match the Qlearning's argument.
