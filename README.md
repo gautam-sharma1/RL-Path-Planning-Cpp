@@ -46,7 +46,7 @@ Player::_goal = {5, 5};
 The following function starts the learning. <br/>
 Note : 16 is the length of the state space that should match the Qlearning's argument.
 ```
-l.Run(q, 20);
+l.Run(q, 16);
 ```
 
 
