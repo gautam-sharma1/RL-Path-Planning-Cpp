@@ -1,6 +1,7 @@
 # Qlearning-cpp
 A library implementing Q learning with modern C++ syntax and using Opencv for simulaiton
 
+![](anim_opencv.gif)
 
 ## Getting Started
 To define a QLearning agent
@@ -58,21 +59,21 @@ C++ 17 <br/>
 cmake <br/>
 
 ### Installing
-#Installing OpenCV: <br/>
-* [Install HomeBrew]:
+Installing OpenCV: <br/>
+**[Install HomeBrew]:
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-* [Install OpenCV]: <br/>
+**[Install OpenCV]: <br/>
 ```
 brew install opencv
 ```
 
-* [Install pkg-config]:<br/>
+**[Install pkg-config]:<br/>
 ```
 brew install pkg-config
 ```
-Clone the rep0:
+Clone the repo:
 ```
 git clone https://github.com/gautam-sharma1/RL-Path-Planning-Cpp.git
 
