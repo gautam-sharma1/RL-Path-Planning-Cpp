@@ -60,16 +60,16 @@ cmake <br/>
 
 ### Installing
 Installing OpenCV: <br/>
-**[Install HomeBrew]:
+**[Install HomeBrew]**:
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-**[Install OpenCV]: <br/>
+**[Install OpenCV]**: <br/>
 ```
 brew install opencv
 ```
 
-**[Install pkg-config]:<br/>
+**[Install pkg-config]**:<br/>
 ```
 brew install pkg-config
 ```
