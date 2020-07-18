@@ -96,6 +96,7 @@ cmake .. && make
 ## Authors
 
 * **Gautam Sharma** - *Initial work* - [Github](https://github.com/gautam-sharma1)
+* Please leave a star if you find this repo interesting!
 
 
 ## License
