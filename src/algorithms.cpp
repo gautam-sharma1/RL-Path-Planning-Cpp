@@ -37,7 +37,7 @@ QLearning::QLearning(const int &s, const int &r, const int &a) : _stateSize(s), 
         }
         else
         {
-            throw 69;
+            throw -1;
         }
     }
     catch (...)
